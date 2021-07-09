@@ -21,7 +21,7 @@ libfind_package(HTSlib ZLIB)
 
 # Include dir
 find_path(HTSlib_INCLUDE_DIR
-    NAMES ${HTSLIB_ADDITIONAL_HEADERS} sam.h
+    NAMES ${HTSLIB_ADDITIONAL_HEADERS} htslib/sam.h
     PATHS ${HTSLIB_SEARCH_DIRS}
     PATH_SUFFIXES
         include include/htslib htslib/${_htslib_ver_path}/htslib

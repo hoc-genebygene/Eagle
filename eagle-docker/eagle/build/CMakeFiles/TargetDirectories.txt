@@ -1,0 +1,5 @@
+/tmp/eagle/bin/CMakeFiles/rebuild_cache.dir
+/tmp/eagle/bin/CMakeFiles/edit_cache.dir
+/tmp/eagle/bin/src/CMakeFiles/rebuild_cache.dir
+/tmp/eagle/bin/src/CMakeFiles/edit_cache.dir
+/tmp/eagle/bin/src/CMakeFiles/eagle.dir
