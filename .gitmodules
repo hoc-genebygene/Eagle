@@ -1,0 +1,3 @@
+[submodule "infrastruct"]
+	path = infrastruct
+	url = infrastruct-repo:genebygene/infrastruct.git
