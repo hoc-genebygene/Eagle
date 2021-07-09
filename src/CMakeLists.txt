@@ -1,0 +1,48 @@
+ADD_EXECUTABLE(eagle
+    DipTreePBWT.cpp
+    DipTreePBWT.hpp
+    Eagle.cpp
+    Eagle.hpp
+    EagleImpMiss.cpp
+    EagleMain.cpp
+    EaglePBWT.cpp
+    EagleParams.cpp
+    EagleParams.hpp
+    FileUtils.cpp
+    FileUtils.hpp
+    GenoData.cpp
+    GenoData.hpp
+    HapHedge.cpp
+    HapHedge.hpp
+    LapackConst.hpp
+    MapInterpolater.cpp
+    MapInterpolater.hpp
+    MemoryUtils.cpp
+    MemoryUtils.hpp
+    NumericUtils.cpp
+    NumericUtils.hpp
+    StaticMultimap.cpp
+    StaticMultimap.hpp
+    StringUtils.cpp
+    StringUtils.hpp
+    SyncedVcfData.cpp
+    SyncedVcfData.hpp
+    Timer.cpp
+    Timer.hpp
+    Types.hpp
+    Version.hpp
+    memcpy.cpp
+)
+
+TARGET_LINK_LIBRARIES(eagle
+    ${Boost_LIBRARIES}
+    ${HTSlib_LIBRARIES}
+    OpenMP::OpenMP_CXX
+    BLAS::BLAS
+)
+
+TARGET_INCLUDE_DIRECTORIES(eagle
+	PRIVATE
+	${Boost_INCLUDE_DIRS}
+	${HTSlib_INCLUDE_DIRS}
+)
