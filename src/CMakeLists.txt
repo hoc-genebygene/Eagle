@@ -46,3 +46,5 @@ TARGET_INCLUDE_DIRECTORIES(eagle
 	${Boost_INCLUDE_DIRS}
 	${HTSlib_INCLUDE_DIRS}
 )
+
+install(TARGETS eagle)
